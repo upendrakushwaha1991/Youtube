@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <FrameLayout
+            android:layout_width="220dp"
+            android:background="@drawable/dialog_corner"
+            android:layout_height="160dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/add_vactions"
+                        android:layout_width="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/pop_up_corner_button"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/add"
+                            android:layout_width="150dp"
+                            android:text="OK"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/request_trade"
+                        android:layout_width="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/pop_up_corner_button"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/requst"
+                            android:layout_width="match_parent"
+                            android:text="CANClE"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+    </FrameLayout>
+<!--
+    <TextView
+        android:id="@+id/close_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginBottom="66dp"
+        android:textColor="@android:color/white"
+        android:text="@string/close_button"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/blue_second"/>
+-->
+</FrameLayout>

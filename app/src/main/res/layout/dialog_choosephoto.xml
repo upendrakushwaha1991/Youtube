@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:background="@drawable/dialog_corner"
+            android:layout_height="150dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/addevent"
+                        android:layout_width="0dp"
+                        android:background="@drawable/pop_up_corner_button"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/camera_payment_pic"
+                            android:layout_width="wrap_content"
+                            android:text="     CAMERA     "
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:singleLine="true"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/add_vactions"
+                        android:layout_width="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/pop_up_corner_button"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/gallery_payment_expense_pic"
+                            android:layout_width="wrap_content"
+                            android:text=" GALLERY "
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/payment_cross"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginBottom="65dp"
+            android:textColor="@android:color/white"
+            android:text="@string/close_button"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@color/blue_second"/>
+
+
+    </FrameLayout>
+</FrameLayout>
+
+

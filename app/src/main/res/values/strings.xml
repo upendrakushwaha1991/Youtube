@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Youtube</string>
+    <string name="close_button">&#xf00d;</string>
+    <string name="fa_calendar">&#xf073;</string>
+
+    <string name="uploaddata">Uploading Data</string>
+    <string name="prompt_userid">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">oturum aç</string>
+    <string name="action_sign_in">Login</string>
+    <string name="previous_data_upload">Please Upload Previous Data First</string>
+    <string name="nonetwork"> No Network Connection. Please Check Your Internet Connection</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="new_update_available">New Update Available \n\n Yeni güncelleme var</string>
+    <string name="ok">OK</string>
+    <string name="error_incorrect_username">This username is incorrect</string>
+
+    <string name="error">Error Uploading</string>
+
+
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <string name="DELETE_ALERT_MESSAGE">Saved data will be lost - Do you want to continue?</string>
+    <string name="NodataAvailable">No data available</string>
+    <string name="Pleasedownaloaddata">Please download data</string>
+
+</resources>
